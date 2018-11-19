@@ -1,17 +1,28 @@
+
 # Web Scraping
 This project is to build a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page.
 
 ## Initial scraping was done with Jupyter Notebook using following libraries:
 **BeautifulSoup**<br>
+# Web Scraping 
+This project is to build a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page.
+<hr>
+## Initial scraping was done with Jupyter Notebook using following libraries:
+**BeautifulSoup**
+<br>
+>>>>>>> c9191b5f4051d9a3791088246f1290757f93a2de
 it is a Python library for pulling data out of HTML and XML files. It works with any parser to provide idiomatic ways of navigating, searching, and modifying the parse tree.
 <br>
-**Pandas**<br>
+**Pandas**
+<br>
 this python's data analysis library can be used with BeautifulSoup for web scraping. BeautifulSoup can pass the findings to pandas. Pandas can use its read_html function to read the HTML table data into a dataframe, which can be converted to JSON format.
 <br>
-**Requests**<br>
+**Requests**
+<br>
 it is a Python library that is used to send HTTP requests, add headers, form data, multiplart files and parameters with simple Python dictionaries, and access the response data in the same way.
 <br>
-**Splinter**<br>
+**Splinter**
+<br>
 it is an open source tool for testing web applications using Python. it lets you automate browser actions, such as visting URLs and interacting with their items.
 <br>
 ## Defined a function to perform all the scraping:
