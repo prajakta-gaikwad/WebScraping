@@ -30,7 +30,5 @@ it is an open source tool for testing web applications using Python. it lets you
 <br>
 ## HTML, CSS, Bootstrap
 * Created an index.html file that takes mars data dictionary and displays all the data in appropriate HTML elements.
-<br>
-
 ## Snapshot of the webpage
 ![Alt text](webpage.png?raw=true "Optional Title")
