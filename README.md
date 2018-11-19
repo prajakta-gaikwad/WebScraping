@@ -22,12 +22,15 @@ it is an open source tool for testing web applications using Python. it lets you
 * In a file scrape_mars.py, **scrape()** function was defined to execute all of the scraping code and return one Python dictionary containing all of the scrapped data.
 <br>
 ## Flask and PyMongo
-* Using Flask, created a route **(/scrape)** that imports the scrape_mars.py script and call the **scrape** function.
+* Using Flask, created a route (/scrape) that imports the scrape_mars.py script and call the **scrape** function.
+<br>
 * Using PyMongo stored the return value in Mongo as a Python dictionary.
-* Created a route **(/)** that queries the mongo database and passes the mars data into an HTML template to display the data
+<br>
+* Created a route (/) that queries the mongo database and passes the mars data into an HTML template to display the data
 <br>
 ## HTML, CSS, Bootstrap
 * Created an index.html file that takes mars data dictionary and displays all the data in appropriate HTML elements.
+<br>
 
 ## Snapshot of the webpage
 ![Alt text](webpage.png?raw=true "Optional Title")
