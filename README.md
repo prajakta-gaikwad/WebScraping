@@ -1,16 +1,9 @@
-
-# Web Scraping
-This project is to build a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page.
-
-## Initial scraping was done with Jupyter Notebook using following libraries:
-**BeautifulSoup**<br>
 # Web Scraping 
 This project is to build a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page.
-<hr>
-## Initial scraping was done with Jupyter Notebook using following libraries:
+
+## Initial scraping was done with Jupyter Notebook using following libraries
 **BeautifulSoup**
 <br>
->>>>>>> c9191b5f4051d9a3791088246f1290757f93a2de
 it is a Python library for pulling data out of HTML and XML files. It works with any parser to provide idiomatic ways of navigating, searching, and modifying the parse tree.
 <br>
 **Pandas**
@@ -25,7 +18,7 @@ it is a Python library that is used to send HTTP requests, add headers, form dat
 <br>
 it is an open source tool for testing web applications using Python. it lets you automate browser actions, such as visting URLs and interacting with their items.
 <br>
-## Defined a function to perform all the scraping:
+## Defined a function to perform all the scraping
 * In a file scrape_mars.py, **scrape()** function was defined to execute all of the scraping code and return one Python dictionary containing all of the scrapped data.
 <br>
 ## Flask and PyMongo
