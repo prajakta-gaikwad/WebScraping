@@ -33,4 +33,5 @@ it is an open source tool for testing web applications using Python. it lets you
 
 ## Snapshot of the webpage
 <br>
+
 ![Alt text](webpage.png?raw=true "Optional Title")
