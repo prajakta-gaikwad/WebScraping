@@ -1,6 +1,13 @@
 # Web Scraping 
 This project is to build a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page.
 
+## following websites are scraped for this project
+* [NASA Mars News Site](https://mars.nasa.gov/news/)
+* [JPL NASA site](https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars)
+* [Mars Weather Twitter account](https://twitter.com/marswxreport?lang=en)
+* [Mars Facts Web Page](http://space-facts.com/mars/)
+* [USGS Astrogeology Site](https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars) 
+
 ## Initial scraping was done with Jupyter Notebook using following libraries
 **BeautifulSoup**
 <br>
@@ -18,6 +25,9 @@ it is a Python library that is used to send HTTP requests, add headers, form dat
 <br>
 it is an open source tool for testing web applications using Python. it lets you automate browser actions, such as visting URLs and interacting with their items.
 <br>
+![Alt text](scraping_imports.PNG?raw=true "Optional Title")
+
+
 ## Defined a function to perform all the scraping
 * In a file scrape_mars.py, **scrape()** function was defined to execute all of the scraping code and return one Python dictionary containing all of the scrapped data.
 ## Flask and PyMongo
