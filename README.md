@@ -1,4 +1,5 @@
-# This project is to build a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page.
+## Web Scraping 
+This project is to build a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page.
 <hr>
 ### Initial scraping was done with Jupyter Notebook using following libraries:
 **BeautifulSoup**<br>
